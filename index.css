@@ -75,3 +75,20 @@ input{
     align-items: center;
     outline: none;
 }
+a{
+    font-family: var(--poppins);
+    font-size: 2rem;
+    text-align: right;
+    display: flex;
+    align-self: flex-end;
+    color: var(--bleu1);
+}
+
+button{
+    display: flex;
+    align-self: center;
+    padding: 2.5rem 7rem;
+    border-radius: 5rem;
+    background-color:var(--buttoncolor) ;
+    color: white;
+}
