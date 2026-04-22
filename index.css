@@ -128,12 +128,12 @@ button{
     .title{font-family: var(--inter); font-size: 3.2rem;}
     .adresse_mail{display: block;}
     input::placeholder{color: transparent;}
-    form{width: 39rem;}
-    .mail{width: 38rem;}
+    form{width: 36rem;}
+    .mail{width: 35rem;}
     .mail>img{display: none;}
     .avec{display: none;}
     button{font-family: var(--inter);}
-    a{font-size: 1.4rem;}
+    a{font-size: 1.2rem;}
     .images{margin-top: 16.6rem;}
     .images img{width: 7rem; height: 7rem;}
 }
