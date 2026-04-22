@@ -15,7 +15,7 @@
     --inputcolor: #979797;
     --bleu1: #8EA7E9;
     --buttoncolor: #7286D3;
-    --logobg: #FFF2F28A;
+    --logobg: #FFF2F2;
 
 }
 
@@ -105,4 +105,16 @@ button{
     border: 1px solid #9E9E9F;
     width: 16rem;
     height: 0;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7.4rem;
+}
+.images img{
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+    padding: 1.5rem;
+    background-color: var(--logobg);
 }
