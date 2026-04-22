@@ -119,3 +119,21 @@ button{
     padding: 1.5rem;
     background-color: var(--logobg);
 }
+
+.adresse_mail{display: none;}
+
+@media screen and (max-width: 431px){
+    .email{display: none;}
+    .section1_item1{display: none;}
+    .title{font-family: var(--inter); font-size: 3.2rem;}
+    .adresse_mail{display: block;}
+    input::placeholder{color: transparent;}
+    form{width: 39rem;}
+    .mail{width: 38rem;}
+    .mail>img{display: none;}
+    .avec{display: none;}
+    button{font-family: var(--inter);}
+    a{font-size: 1.4rem;}
+    .images{margin-top: 16.6rem;}
+    .images img{width: 7rem; height: 7rem;}
+}
